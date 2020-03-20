@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	text-align: center;
+}
+.calc {
+	margin: 20px auto;
+	width: 300px;
+	height: 400px;
+	background-color: brown;
+}
+
+.screen {
+	background-color: black;
+	color: azure;
+	text-align: right;
+	font-size: 60px;
+	height: 69px;
+	overflow: hidden;
+}
+
+.buttons {
+	height: 100%;
+}
+.row {
+	display: flex;
+	height: 20%;
+}
+button {
+	flex: 1;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.row:first-child {
+	height: 15%;
+}
+#divide {
+	flex-basis: 25%;
+	flex-grow: 0;
+}
+.row:last-child {
+	height: 15%;
+}
+button:last-child {
+	background-color: rgb(253, 142, 63);
+}
+button:hover {
+	background-color: #dfdfdf;
+}
+button:active {
+	background-color: rgb(144, 144, 144);
+}
+button:last-child:hover {
+	background-color: peru;
+}
+button:last-child:active {
+	background-color: rgb(148, 96, 45);
+}
